@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Xcode
+xcuserdata
