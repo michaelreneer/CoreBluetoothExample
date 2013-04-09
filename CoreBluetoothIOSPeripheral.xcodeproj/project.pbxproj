@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620FD71D17142AB500825CBC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 620FD71A17142AB500825CBC /* Default-568h@2x.png */; };
+		620FD71E17142AB500825CBC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 620FD71B17142AB500825CBC /* Default.png */; };
+		620FD71F17142AB500825CBC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 620FD71C17142AB500825CBC /* Default@2x.png */; };
+		620FD72517142AE200825CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72417142AD800825CBC /* main.m */; };
+		620FD72E17142AFC00825CBC /* BIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72B17142AFC00825CBC /* BIPAppDelegate.m */; };
+		620FD72F17142AFC00825CBC /* BIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72D17142AFC00825CBC /* BIPViewController.m */; };
+		620FD73A17142B2500825CBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 620FD73C17142B2500825CBC /* InfoPlist.strings */; };
+		620FD73D17142BB100825CBC /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620FD73617142B1700825CBC /* MainStoryboard_iPad.storyboard */; };
+		620FD73E17142BB400825CBC /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620FD73217142B0E00825CBC /* MainStoryboard_iPhone.storyboard */; };
+		627A5202171394080050E861 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A5201171394080050E861 /* UIKit.framework */; };
+		627A5204171394080050E861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A5203171394080050E861 /* Foundation.framework */; };
+		627A5206171394080050E861 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A5205171394080050E861 /* CoreGraphics.framework */; };
+		627A5227171394C50050E861 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A5226171394C50050E861 /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		620FD71A17142AB500825CBC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "CoreBluetoothIOSPeripheral/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		620FD71B17142AB500825CBC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = CoreBluetoothIOSPeripheral/Default.png; sourceTree = SOURCE_ROOT; };
+		620FD71C17142AB500825CBC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "CoreBluetoothIOSPeripheral/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		620FD72217142AD800825CBC /* CoreBluetoothIOSPeripheral-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CoreBluetoothIOSPeripheral-Info.plist"; path = "CoreBluetoothIOSPeripheral/CoreBluetoothIOSPeripheral-Info.plist"; sourceTree = SOURCE_ROOT; };
+		620FD72317142AD800825CBC /* CoreBluetoothIOSPeripheral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CoreBluetoothIOSPeripheral-Prefix.pch"; path = "CoreBluetoothIOSPeripheral/CoreBluetoothIOSPeripheral-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		620FD72417142AD800825CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CoreBluetoothIOSPeripheral/main.m; sourceTree = SOURCE_ROOT; };
+		620FD72A17142AFC00825CBC /* BIPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIPAppDelegate.h; path = CoreBluetoothIOSPeripheral/BIPAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		620FD72B17142AFC00825CBC /* BIPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIPAppDelegate.m; path = CoreBluetoothIOSPeripheral/BIPAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		620FD72C17142AFC00825CBC /* BIPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIPViewController.h; path = CoreBluetoothIOSPeripheral/BIPViewController.h; sourceTree = SOURCE_ROOT; };
+		620FD72D17142AFC00825CBC /* BIPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIPViewController.m; path = CoreBluetoothIOSPeripheral/BIPViewController.m; sourceTree = SOURCE_ROOT; };
+		620FD73317142B1300825CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		620FD73717142B1A00825CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		620FD73817142B1D00825CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStoryboard_iPad.strings; sourceTree = "<group>"; };
+		620FD73917142B2200825CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStoryboard_iPhone.strings; sourceTree = "<group>"; };
+		620FD73B17142B2500825CBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		627A51FE171394080050E861 /* Peripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peripheral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		627A5201171394080050E861 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		627A5203171394080050E861 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		627A5205171394080050E861 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		627A5226171394C50050E861 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		627A51FB171394080050E861 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				627A5227171394C50050E861 /* CoreBluetooth.framework in Frameworks */,
+				627A5206171394080050E861 /* CoreGraphics.framework in Frameworks */,
+				627A5204171394080050E861 /* Foundation.framework in Frameworks */,
+				627A5202171394080050E861 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		627A51F5171394080050E861 = {
+			isa = PBXGroup;
+			children = (
+				627A5207171394080050E861 /* CoreBluetoothIOSPeripheral */,
+				627A5200171394080050E861 /* Frameworks */,
+				627A51FF171394080050E861 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		627A51FF171394080050E861 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				627A51FE171394080050E861 /* Peripheral.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		627A5200171394080050E861 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				627A5226171394C50050E861 /* CoreBluetooth.framework */,
+				627A5205171394080050E861 /* CoreGraphics.framework */,
+				627A5203171394080050E861 /* Foundation.framework */,
+				627A5201171394080050E861 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		627A5207171394080050E861 /* CoreBluetoothIOSPeripheral */ = {
+			isa = PBXGroup;
+			children = (
+				627A5224171394AC0050E861 /* Views */,
+				627A5225171394B20050E861 /* Controllers & Controls */,
+				627A5228171394D70050E861 /* Resources */,
+				627A5208171394080050E861 /* Supporting Files */,
+			);
+			name = CoreBluetoothIOSPeripheral;
+			path = ExamplePeripheral;
+			sourceTree = "<group>";
+		};
+		627A5208171394080050E861 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				620FD72217142AD800825CBC /* CoreBluetoothIOSPeripheral-Info.plist */,
+				620FD72317142AD800825CBC /* CoreBluetoothIOSPeripheral-Prefix.pch */,
+				620FD72417142AD800825CBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		627A5224171394AC0050E861 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				620FD73617142B1700825CBC /* MainStoryboard_iPad.storyboard */,
+				620FD73217142B0E00825CBC /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		627A5225171394B20050E861 /* Controllers & Controls */ = {
+			isa = PBXGroup;
+			children = (
+				620FD72A17142AFC00825CBC /* BIPAppDelegate.h */,
+				620FD72B17142AFC00825CBC /* BIPAppDelegate.m */,
+				620FD72C17142AFC00825CBC /* BIPViewController.h */,
+				620FD72D17142AFC00825CBC /* BIPViewController.m */,
+			);
+			name = "Controllers & Controls";
+			sourceTree = "<group>";
+		};
+		627A5228171394D70050E861 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				620FD73C17142B2500825CBC /* InfoPlist.strings */,
+				620FD71A17142AB500825CBC /* Default-568h@2x.png */,
+				620FD71B17142AB500825CBC /* Default.png */,
+				620FD71C17142AB500825CBC /* Default@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		627A51FD171394080050E861 /* CoreBluetoothIOSPeripheral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 627A5221171394080050E861 /* Build configuration list for PBXNativeTarget "CoreBluetoothIOSPeripheral" */;
+			buildPhases = (
+				627A51FA171394080050E861 /* Sources */,
+				627A51FB171394080050E861 /* Frameworks */,
+				627A51FC171394080050E861 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreBluetoothIOSPeripheral;
+			productName = ExamplePeripheral;
+			productReference = 627A51FE171394080050E861 /* Peripheral.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		627A51F6171394080050E861 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BIP;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Reneer";
+			};
+			buildConfigurationList = 627A51F9171394080050E861 /* Build configuration list for PBXProject "CoreBluetoothIOSPeripheral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 627A51F5171394080050E861;
+			productRefGroup = 627A51FF171394080050E861 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				627A51FD171394080050E861 /* CoreBluetoothIOSPeripheral */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627A51FC171394080050E861 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620FD71D17142AB500825CBC /* Default-568h@2x.png in Resources */,
+				620FD71E17142AB500825CBC /* Default.png in Resources */,
+				620FD71F17142AB500825CBC /* Default@2x.png in Resources */,
+				620FD73A17142B2500825CBC /* InfoPlist.strings in Resources */,
+				620FD73D17142BB100825CBC /* MainStoryboard_iPad.storyboard in Resources */,
+				620FD73E17142BB400825CBC /* MainStoryboard_iPhone.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		627A51FA171394080050E861 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620FD72517142AE200825CBC /* main.m in Sources */,
+				620FD72E17142AFC00825CBC /* BIPAppDelegate.m in Sources */,
+				620FD72F17142AFC00825CBC /* BIPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		620FD73217142B0E00825CBC /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620FD73317142B1300825CBC /* Base */,
+				620FD73917142B2200825CBC /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = CoreBluetoothIOSPeripheral;
+			sourceTree = SOURCE_ROOT;
+		};
+		620FD73617142B1700825CBC /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620FD73717142B1A00825CBC /* Base */,
+				620FD73817142B1D00825CBC /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = CoreBluetoothIOSPeripheral;
+			sourceTree = SOURCE_ROOT;
+		};
+		620FD73C17142B2500825CBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620FD73B17142B2500825CBC /* en */,
+			);
+			name = InfoPlist.strings;
+			path = CoreBluetoothIOSPeripheral;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		627A521F171394080050E861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		627A5220171394080050E861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		627A5222171394080050E861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreBluetoothIOSPeripheral/CoreBluetoothIOSPeripheral-Prefix.pch";
+				INFOPLIST_FILE = "CoreBluetoothIOSPeripheral/CoreBluetoothIOSPeripheral-Info.plist";
+				PRODUCT_NAME = Peripheral;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		627A5223171394080050E861 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreBluetoothIOSPeripheral/CoreBluetoothIOSPeripheral-Prefix.pch";
+				INFOPLIST_FILE = "CoreBluetoothIOSPeripheral/CoreBluetoothIOSPeripheral-Info.plist";
+				PRODUCT_NAME = Peripheral;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		627A51F9171394080050E861 /* Build configuration list for PBXProject "CoreBluetoothIOSPeripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627A521F171394080050E861 /* Debug */,
+				627A5220171394080050E861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		627A5221171394080050E861 /* Build configuration list for PBXNativeTarget "CoreBluetoothIOSPeripheral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				627A5222171394080050E861 /* Debug */,
+				627A5223171394080050E861 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 627A51F6171394080050E861 /* Project object */;
+}
