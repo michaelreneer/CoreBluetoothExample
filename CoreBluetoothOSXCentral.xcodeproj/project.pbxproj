@@ -10,7 +10,6 @@
 		622D77D817142EBA00B2A04F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D77D717142EBA00B2A04F /* Cocoa.framework */; };
 		622D77E217142EBA00B2A04F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 622D77E017142EBA00B2A04F /* InfoPlist.strings */; };
 		622D77E417142EBA00B2A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77E317142EBA00B2A04F /* main.m */; };
-		622D77E817142EBA00B2A04F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 622D77E617142EBA00B2A04F /* Credits.rtf */; };
 		622D77EB17142EBA00B2A04F /* BOCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77EA17142EBA00B2A04F /* BOCAppDelegate.m */; };
 		622D77EE17142EBA00B2A04F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 622D77EC17142EBA00B2A04F /* MainMenu.xib */; };
 		622D77F817142EF100B2A04F /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D77F717142EF100B2A04F /* IOBluetooth.framework */; };
@@ -26,7 +25,6 @@
 		622D77E117142EBA00B2A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		622D77E317142EBA00B2A04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		622D77E517142EBA00B2A04F /* CoreBluetoothOSXCentral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreBluetoothOSXCentral-Prefix.pch"; sourceTree = "<group>"; };
-		622D77E717142EBA00B2A04F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		622D77E917142EBA00B2A04F /* BOCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BOCAppDelegate.h; sourceTree = "<group>"; };
 		622D77EA17142EBA00B2A04F /* BOCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOCAppDelegate.m; sourceTree = "<group>"; };
 		622D77F717142EF100B2A04F /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
@@ -98,8 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				622D77DF17142EBA00B2A04F /* CoreBluetoothOSXCentral-Info.plist */,
-				622D77E317142EBA00B2A04F /* main.m */,
 				622D77E517142EBA00B2A04F /* CoreBluetoothOSXCentral-Prefix.pch */,
+				622D77E317142EBA00B2A04F /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				622D77E017142EBA00B2A04F /* InfoPlist.strings */,
-				622D77E617142EBA00B2A04F /* Credits.rtf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -184,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				622D77E217142EBA00B2A04F /* InfoPlist.strings in Resources */,
-				622D77E817142EBA00B2A04F /* Credits.rtf in Resources */,
 				622D77EE17142EBA00B2A04F /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,14 +206,6 @@
 				622D77E117142EBA00B2A04F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		622D77E617142EBA00B2A04F /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				622D77E717142EBA00B2A04F /* en */,
-			);
-			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
 		622D77EC17142EBA00B2A04F /* MainMenu.xib */ = {

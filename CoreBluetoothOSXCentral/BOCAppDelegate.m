@@ -12,12 +12,12 @@
 
 @interface BOCAppDelegate ()
 
-@property (strong) NSMutableData *data;
-@property (strong) CBCentralManager *manager;
-@property (strong) CBPeripheral *peripheral;
+@property (nonatomic, strong) NSMutableData *data;
+@property (nonatomic, strong) CBCentralManager *manager;
+@property (nonatomic, strong) CBPeripheral *peripheral;
 
-@property (weak) IBOutlet NSTextField *deviceTextField;
-@property (weak) IBOutlet NSTextField *orientationTextField;
+@property (nonatomic, weak) IBOutlet NSTextField *deviceTextField;
+@property (nonatomic, weak) IBOutlet NSTextField *orientationTextField;
 
 @end
 
@@ -50,8 +50,8 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
     [peripheral discoverServices:@[serviceUUID]];
     
     NSString *value = [[NSString alloc] initWithFormat:@"%@", peripheral.name];
-	[self.deviceTextField setStringValue:value];
-	[self.orientationTextField setStringValue:@""];
+    [self.deviceTextField setStringValue:value];
+    [self.orientationTextField setStringValue:@""];
 }
 
 - (void)centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error {
@@ -62,8 +62,8 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
     
     [self startScan];
     
-	[self.deviceTextField setStringValue:@"..."];
-	[self.orientationTextField setStringValue:@""];
+    [self.deviceTextField setStringValue:@"..."];
+    [self.orientationTextField setStringValue:@""];
 }
 
 - (void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI {
@@ -85,8 +85,8 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
     
     [self startScan];
     
-	[self.deviceTextField setStringValue:@"..."];
-	[self.orientationTextField setStringValue:@""];
+    [self.deviceTextField setStringValue:@"..."];
+    [self.orientationTextField setStringValue:@""];
 }
 
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central {
@@ -175,19 +175,19 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
             [self.orientationTextField setStringValue:@"Portrait"];
         }
         else if (orientation == 2) {
-            [self.orientationTextField setStringValue:@"PortraitUpsideDown"];
+            [self.orientationTextField setStringValue:@"Portrait Upside Down"];
         }
         else if (orientation == 3) {
-            [self.orientationTextField setStringValue:@"LandscapeLeft"];
+            [self.orientationTextField setStringValue:@"Landscape Left"];
         }
         else if (orientation == 4) {
-            [self.orientationTextField setStringValue:@"LandscapeRight"];
+            [self.orientationTextField setStringValue:@"Landscape Right"];
         }
         else if (orientation == 5) {
-            [self.orientationTextField setStringValue:@"FaceUp"];
+            [self.orientationTextField setStringValue:@"Face Up"];
         }
         else if (orientation == 6) {
-            [self.orientationTextField setStringValue:@"FaceDown"];
+            [self.orientationTextField setStringValue:@"Face Down"];
         }
         else {
             [self.orientationTextField setStringValue:@"Unknown"];
@@ -203,7 +203,7 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
 
 - (void)applicationWillTerminate:(NSNotification *)notification {
     
-    if (self.peripheral) {
+    if (self.peripheral != nil) {
         [self.manager cancelPeripheralConnection:self.peripheral];
     }
 }
