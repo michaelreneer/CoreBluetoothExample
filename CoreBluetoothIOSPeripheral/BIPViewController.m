@@ -16,6 +16,8 @@
 @property (nonatomic, strong) CBPeripheralManager *manager;
 @property (nonatomic, strong) CBMutableService *service;
 
+@property (nonatomic, weak) IBOutlet UISwitch *control;
+
 @end
 
 #pragma mark - Implementation
@@ -74,7 +76,12 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
 
 #pragma mark - Instance Methods
 
-- (void)addServiceToPeripheralManager:(CBPeripheralManager *)peripheral {
+- (void)addServiceToPeripheralManager {
+    
+    if (self.service != nil) {
+        [self.manager removeService:self.service];
+    }
+    
     CBUUID *characteristicUUID = [CBUUID UUIDWithString:kCharacteristicUUID];
     self.characteristic = [[CBMutableCharacteristic alloc] initWithType:characteristicUUID properties:CBCharacteristicPropertyNotify value:nil permissions:CBAttributePermissionsWriteable];
     
@@ -86,11 +93,14 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
 }
 
 - (void)commonInit {
-    self.manager = [[CBPeripheralManager alloc] initWithDelegate:self queue:nil];
+    _manager = [[CBPeripheralManager alloc] initWithDelegate:self queue:nil];
 }
 
 - (void)deviceOrientationDidChange:(NSNotification *)notification {
-    [self updateValueForCharacteristic];
+    
+    if (self.manager.isAdvertising) {
+        [self updateValueForCharacteristic];
+    }
 }
 
 - (void)updateValueForCharacteristic {
@@ -105,6 +115,20 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
         
         dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
         dispatch_async(queue, block);
+    }
+}
+
+#pragma mark - Action Methods
+
+- (IBAction)controlValueChanged:(id)sender {
+    UISwitch *control = (UISwitch *)sender;
+    
+    if (control.on) {
+        [self addServiceToPeripheralManager];
+    }
+    else {
+        [self.manager stopAdvertising];
+        [self.manager removeAllServices];
     }
 }
 
@@ -127,7 +151,7 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
     
     CBUUID *serviceUUID = [CBUUID UUIDWithString:kServiceUUID];
     NSDictionary *data = @{
-                           CBAdvertisementDataLocalNameKey: @"EPCoreBluetoothIOSPeripheral",
+                           CBAdvertisementDataLocalNameKey: @"BIPCoreBluetoothIOSPeripheral",
                            CBAdvertisementDataServiceUUIDsKey: @[serviceUUID],
                            };
     
@@ -137,7 +161,7 @@ static NSString *const kCharacteristicUUID = @"D589A9D6-C7EE-44FC-8F0E-46DD631EC
 - (void)peripheralManagerDidUpdateState:(CBPeripheralManager *)peripheral {
     
     if (peripheral.state == CBPeripheralManagerStatePoweredOn) {
-        [self addServiceToPeripheralManager:peripheral];
+        [self addServiceToPeripheralManager];
     }
     else if (peripheral.state == CBCentralManagerStatePoweredOff) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Bluetooth is currently powered off." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
@@ -17,19 +17,35 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z71-ka-n0m">
+                                <connections>
+                                    <action selector="controlValueChanged:" destination="2" eventType="valueChanged" id="x8n-lA-HKP"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="79D-1z-BEc" firstAttribute="centerY" secondItem="5" secondAttribute="centerY" type="user" id="6xO-W5-3gh"/>
-                            <constraint firstAttribute="centerX" secondItem="79D-1z-BEc" secondAttribute="centerX" type="user" id="SCv-Uc-8VW"/>
+                            <constraint firstAttribute="centerX" secondItem="79D-1z-BEc" secondAttribute="centerX" type="user" id="CRM-qS-MbF"/>
+                            <constraint firstAttribute="centerY" secondItem="Z71-ka-n0m" secondAttribute="centerY" type="user" id="S3N-0e-Ow7"/>
+                            <constraint firstItem="Z71-ka-n0m" firstAttribute="top" secondItem="79D-1z-BEc" secondAttribute="bottom" constant="8" symbolic="YES" type="user" id="jUl-4r-5Kp"/>
+                            <constraint firstAttribute="centerX" secondItem="Z71-ka-n0m" secondAttribute="centerX" type="user" id="rFK-JA-uOI"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="control" destination="Z71-ka-n0m" id="i6a-TN-lpo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
     <classes>
+        <class className="BIPViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BIPViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="control" candidateClass="UISwitch"/>
+            </relationships>
+        </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
