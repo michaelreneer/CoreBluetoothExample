@@ -1,0 +1,32 @@
+//
+//  Project-Debug.xcconfig
+//  Shared
+//
+//  Created by Michael Reneer on 4/1/16.
+//  Copyright © 2016 Michael Reneer. All rights reserved.
+//
+
+#include "Project.xcconfig"
+
+// Architectures
+ONLY_ACTIVE_ARCH = YES
+
+// Build Options
+DEBUG_INFORMATION_FORMAT = dwarf
+ENABLE_TESTABILITY = YES
+
+// Deployment
+COPY_PHASE_STRIP = NO
+
+// Apple LLVM - Code Generation
+GCC_OPTIMIZATION_LEVEL = 0
+
+// Apple LLVM - Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) DEBUG=1
+
+// Metal Compiler - Build Options
+MTL_ENABLE_DEBUG_INFO = YES
+MTL_OPTIMIZATION_LEVEL = 0
+
+// Swift Compiler - Code Generation
+SWIFT_OPTIMIZATION_LEVEL = -Onone

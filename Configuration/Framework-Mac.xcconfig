@@ -1,0 +1,19 @@
+//
+//  Framework-Mac.xcconfig
+//  Shared
+//
+//  Created by Michael Reneer on 4/1/16.
+//  Copyright © 2016 Michael Reneer. All rights reserved.
+//
+
+#include "Target-Mac.xcconfig"
+
+// Deployment
+INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
+
+// Linking
+DYLIB_INSTALL_NAME_BASE = @rpath
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+
+// Packaging
+DEFINES_MODULE = YES

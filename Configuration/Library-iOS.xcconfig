@@ -1,0 +1,12 @@
+//
+//  Library-iOS.xcconfig
+//  Shared
+//
+//  Created by Michael Reneer on 4/1/16.
+//  Copyright © 2016 Michael Reneer. All rights reserved.
+//
+
+#include "Target-iOS.xcconfig"
+
+// Linking
+OTHER_LDFLAGS = -ObjC

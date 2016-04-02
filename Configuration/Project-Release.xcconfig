@@ -1,0 +1,28 @@
+//
+//  Project-Release.xcconfig
+//  Shared
+//
+//  Created by Michael Reneer on 4/1/16.
+//  Copyright © 2016 Michael Reneer. All rights reserved.
+//
+
+#include "Project.xcconfig"
+
+// Build Options
+DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
+VALIDATE_PRODUCT = YES
+
+// Apple LLVM - Code Generation
+GCC_OPTIMIZATION_LEVEL = s
+LLVM_LTO = YES
+
+// Apple LLVM - Preprocessing
+ENABLE_NS_ASSERTIONS = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) NDEBUG=1
+
+// Metal Compiler - Build Options
+MTL_ENABLE_DEBUG_INFO = NO
+MTL_OPTIMIZATION_LEVEL = s
+
+// Swift Compiler - Code Generation
+SWIFT_OPTIMIZATION_LEVEL = -O
