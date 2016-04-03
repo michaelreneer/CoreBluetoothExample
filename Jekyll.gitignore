@@ -1,8 +1,0 @@
-# OSX
-.DS_Store
-.Trashes
-
-# Jekyll
-_site
-.jekyll-metadata
-.sass-cache

@@ -9,6 +9,8 @@ git submodule add https://github.com/michaelreneer/Shared.git
 
 #### Add Shared To Project
 
+- Drag the folder from Finder into the Xcode Project Navigator.
+
 #### Commit Changes
 
 ```bash
