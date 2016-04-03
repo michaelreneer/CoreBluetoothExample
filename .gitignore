@@ -1,0 +1,10 @@
+# OSX
+.DS_Store
+.Trashes
+
+# Xcode - Build
+build/
+DerivedData/
+
+# Xcode - Settings
+xcuserdata/
