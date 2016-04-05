@@ -6,13 +6,14 @@
 //  Copyright (c) 2013 Michael Reneer. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BLUAppDelegate.h"
 
-#import "BIPAppDelegate.h"
+NS_ASSUME_NONNULL_BEGIN
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([BIPAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([BLUAppDelegate class]));
     }
 }
+
+NS_ASSUME_NONNULL_END

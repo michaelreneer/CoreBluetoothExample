@@ -1,5 +1,5 @@
 //
-//  BIPAppDelegate.h
+//  BLUViewController.h
 //  CoreBluetoothIOSPeripheral
 //
 //  Created by Michael Reneer on 4/8/13.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-#pragma mark - Interface
+NS_ASSUME_NONNULL_BEGIN
 
-@interface BIPAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (nonatomic, strong) UIWindow *window;
-
+@interface BLUViewController : UIViewController
 @end
+
+NS_ASSUME_NONNULL_END

@@ -1,15 +1,10 @@
-# OS
+# OSX
 .DS_Store
+.Trashes
 
-# Packages
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# Xcode - Build
+build/
+DerivedData/
 
-# Xcode
-xcuserdata
+# Xcode - Settings
+xcuserdata/
