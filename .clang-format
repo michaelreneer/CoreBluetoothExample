@@ -59,7 +59,6 @@ Standard: Cpp11
 TabWidth: 4
 UseTab: ForIndentation
 
-# default value, not completely understood
 PenaltyBreakBeforeFirstCallParameter: 19
 PenaltyBreakComment: 300
 PenaltyBreakFirstLessLess: 120
