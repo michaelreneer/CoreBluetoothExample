@@ -203,7 +203,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BIP;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Michael Reneer";
 			};
 			buildConfigurationList = 627A51F9171394080050E861 /* Build configuration list for PBXProject "CoreBluetoothIOSPeripheral" */;
