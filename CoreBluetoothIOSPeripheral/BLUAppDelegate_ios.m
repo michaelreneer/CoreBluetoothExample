@@ -6,7 +6,7 @@
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
-#import "BLUAppDelegate.h"
+#import "BLUAppDelegate_ios.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

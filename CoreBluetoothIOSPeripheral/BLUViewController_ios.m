@@ -7,7 +7,7 @@
 //
 
 #import <CoreBluetooth/CoreBluetooth.h>
-#import "BLUViewController.h"
+#import "BLUViewController_ios.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
