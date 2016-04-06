@@ -1,5 +1,5 @@
 //
-//  BLUAppDelegate.h
+//  BLUViewController_ios.h
 //  CoreBluetoothIOSPeripheral
 //
 //  Created by Michael Reneer on 4/8/13.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BLUAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BLUViewController : UIViewController
 @end
 
 NS_ASSUME_NONNULL_END

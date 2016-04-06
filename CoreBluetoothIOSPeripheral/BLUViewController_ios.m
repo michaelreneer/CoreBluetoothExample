@@ -1,5 +1,5 @@
 //
-//  BLUViewController.m
+//  BLUViewController_ios.m
 //  CoreBluetoothIOSPeripheral
 //
 //  Created by Michael Reneer on 4/8/13.

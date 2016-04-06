@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1A4C02A91CB4007200BE35AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4C02A81CB4007200BE35AD /* UIKit.framework */; };
-		1A4C02B31CB407EE00BE35AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C02B51CB407EE00BE35AD /* Main.storyboard */; };
-		1ADA6B741CB3925700B39C33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B721CB3925700B39C33 /* Localizable.strings */; };
-		1ADA6B771CB3928800B39C33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B751CB3928800B39C33 /* LaunchScreen.storyboard */; };
-		620FD72517142AE200825CBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72417142AD800825CBC /* main.m */; };
-		620FD72E17142AFC00825CBC /* BLUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72B17142AFC00825CBC /* BLUAppDelegate.m */; };
-		620FD72F17142AFC00825CBC /* BLUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72D17142AFC00825CBC /* BLUViewController.m */; };
-		62165310195BF3BA00642A5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6216530F195BF3BA00642A5F /* Assets.xcassets */; };
+		1A4C02B31CB407EE00BE35AD /* Main_ios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C02B51CB407EE00BE35AD /* Main_ios.storyboard */; };
+		1ADA6B741CB3925700B39C33 /* Localizable_ios.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B721CB3925700B39C33 /* Localizable_ios.strings */; };
+		1ADA6B771CB3928800B39C33 /* LaunchScreen_ios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B751CB3928800B39C33 /* LaunchScreen_ios.storyboard */; };
+		620FD72517142AE200825CBC /* main_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72417142AD800825CBC /* main_ios.m */; };
+		620FD72E17142AFC00825CBC /* BLUAppDelegate_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72B17142AFC00825CBC /* BLUAppDelegate_ios.m */; };
+		620FD72F17142AFC00825CBC /* BLUViewController_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 620FD72D17142AFC00825CBC /* BLUViewController_ios.m */; };
+		62165310195BF3BA00642A5F /* Assets_ios.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6216530F195BF3BA00642A5F /* Assets_ios.xcassets */; };
 		627A5227171394C50050E861 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A5226171394C50050E861 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,20 +36,20 @@
 		1A0A20DF1CB368FA00670ED6 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		1A0A20E11CB368FA00670ED6 /* MakeLocalizableStrings.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = MakeLocalizableStrings.sh; sourceTree = "<group>"; };
 		1A4C02A81CB4007200BE35AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1A4C02B41CB407EE00BE35AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1A4C02B71CB407F200BE35AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		1ADA6B731CB3925700B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		1ADA6B761CB3928800B39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1ADA6B791CB392E100B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		620FD72217142AD800825CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = CoreBluetoothIOSPeripheral/Info.plist; sourceTree = SOURCE_ROOT; };
-		620FD72417142AD800825CBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CoreBluetoothIOSPeripheral/main.m; sourceTree = SOURCE_ROOT; };
-		620FD72A17142AFC00825CBC /* BLUAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLUAppDelegate.h; path = CoreBluetoothIOSPeripheral/BLUAppDelegate.h; sourceTree = SOURCE_ROOT; };
-		620FD72B17142AFC00825CBC /* BLUAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLUAppDelegate.m; path = CoreBluetoothIOSPeripheral/BLUAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		620FD72C17142AFC00825CBC /* BLUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLUViewController.h; path = CoreBluetoothIOSPeripheral/BLUViewController.h; sourceTree = SOURCE_ROOT; };
-		620FD72D17142AFC00825CBC /* BLUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLUViewController.m; path = CoreBluetoothIOSPeripheral/BLUViewController.m; sourceTree = SOURCE_ROOT; };
+		1A4C02B41CB407EE00BE35AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_ios.storyboard; sourceTree = "<group>"; };
+		1A4C02B71CB407F200BE35AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_ios.strings; sourceTree = "<group>"; };
+		1ADA6B731CB3925700B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable_ios.strings; sourceTree = "<group>"; };
+		1ADA6B761CB3928800B39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen_ios.storyboard; sourceTree = "<group>"; };
+		1ADA6B791CB392E100B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen_ios.strings; sourceTree = "<group>"; };
+		620FD72217142AD800825CBC /* Info_ios.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info_ios.plist; path = CoreBluetoothIOSPeripheral/Info_ios.plist; sourceTree = SOURCE_ROOT; };
+		620FD72417142AD800825CBC /* main_ios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main_ios.m; path = CoreBluetoothIOSPeripheral/main_ios.m; sourceTree = SOURCE_ROOT; };
+		620FD72A17142AFC00825CBC /* BLUAppDelegate_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLUAppDelegate_ios.h; path = CoreBluetoothIOSPeripheral/BLUAppDelegate_ios.h; sourceTree = SOURCE_ROOT; };
+		620FD72B17142AFC00825CBC /* BLUAppDelegate_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLUAppDelegate_ios.m; path = CoreBluetoothIOSPeripheral/BLUAppDelegate_ios.m; sourceTree = SOURCE_ROOT; };
+		620FD72C17142AFC00825CBC /* BLUViewController_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLUViewController_ios.h; path = CoreBluetoothIOSPeripheral/BLUViewController_ios.h; sourceTree = SOURCE_ROOT; };
+		620FD72D17142AFC00825CBC /* BLUViewController_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLUViewController_ios.m; path = CoreBluetoothIOSPeripheral/BLUViewController_ios.m; sourceTree = SOURCE_ROOT; };
 		621652A8195BE3C700642A5F /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.markdown; sourceTree = SOURCE_ROOT; };
 		621652A9195BE3C700642A5F /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
-		6216530F195BF3BA00642A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CoreBluetoothIOSPeripheral/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		6216530F195BF3BA00642A5F /* Assets_ios.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets_ios.xcassets; path = CoreBluetoothIOSPeripheral/Assets_ios.xcassets; sourceTree = SOURCE_ROOT; };
 		627A51FE171394080050E861 /* CoreBluetoothIOSPeripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreBluetoothIOSPeripheral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		627A5201171394080050E861 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		627A5203171394080050E861 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,11 +112,11 @@
 		621652A7195BE37F00642A5F /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				620FD72A17142AFC00825CBC /* BLUAppDelegate.h */,
-				620FD72B17142AFC00825CBC /* BLUAppDelegate.m */,
-				620FD72C17142AFC00825CBC /* BLUViewController.h */,
-				620FD72D17142AFC00825CBC /* BLUViewController.m */,
-				620FD72417142AD800825CBC /* main.m */,
+				620FD72A17142AFC00825CBC /* BLUAppDelegate_ios.h */,
+				620FD72B17142AFC00825CBC /* BLUAppDelegate_ios.m */,
+				620FD72C17142AFC00825CBC /* BLUViewController_ios.h */,
+				620FD72D17142AFC00825CBC /* BLUViewController_ios.m */,
+				620FD72417142AD800825CBC /* main_ios.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -163,12 +163,12 @@
 		627A5228171394D70050E861 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6216530F195BF3BA00642A5F /* Assets.xcassets */,
-				620FD72217142AD800825CBC /* Info.plist */,
-				1ADA6B751CB3928800B39C33 /* LaunchScreen.storyboard */,
+				6216530F195BF3BA00642A5F /* Assets_ios.xcassets */,
+				620FD72217142AD800825CBC /* Info_ios.plist */,
+				1ADA6B751CB3928800B39C33 /* LaunchScreen_ios.storyboard */,
 				621652A8195BE3C700642A5F /* LICENSE.markdown */,
-				1ADA6B721CB3925700B39C33 /* Localizable.strings */,
-				1A4C02B51CB407EE00BE35AD /* Main.storyboard */,
+				1ADA6B721CB3925700B39C33 /* Localizable_ios.strings */,
+				1A4C02B51CB407EE00BE35AD /* Main_ios.storyboard */,
 				621652A9195BE3C700642A5F /* README.markdown */,
 			);
 			name = Resources;
@@ -227,10 +227,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62165310195BF3BA00642A5F /* Assets.xcassets in Resources */,
-				1ADA6B771CB3928800B39C33 /* LaunchScreen.storyboard in Resources */,
-				1ADA6B741CB3925700B39C33 /* Localizable.strings in Resources */,
-				1A4C02B31CB407EE00BE35AD /* Main.storyboard in Resources */,
+				62165310195BF3BA00642A5F /* Assets_ios.xcassets in Resources */,
+				1ADA6B771CB3928800B39C33 /* LaunchScreen_ios.storyboard in Resources */,
+				1ADA6B741CB3925700B39C33 /* Localizable_ios.strings in Resources */,
+				1A4C02B31CB407EE00BE35AD /* Main_ios.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,39 +241,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				620FD72E17142AFC00825CBC /* BLUAppDelegate.m in Sources */,
-				620FD72F17142AFC00825CBC /* BLUViewController.m in Sources */,
-				620FD72517142AE200825CBC /* main.m in Sources */,
+				620FD72E17142AFC00825CBC /* BLUAppDelegate_ios.m in Sources */,
+				620FD72F17142AFC00825CBC /* BLUViewController_ios.m in Sources */,
+				620FD72517142AE200825CBC /* main_ios.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A4C02B51CB407EE00BE35AD /* Main.storyboard */ = {
+		1A4C02B51CB407EE00BE35AD /* Main_ios.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1A4C02B41CB407EE00BE35AD /* Base */,
 				1A4C02B71CB407F200BE35AD /* en */,
 			);
-			name = Main.storyboard;
+			name = Main_ios.storyboard;
 			sourceTree = "<group>";
 		};
-		1ADA6B721CB3925700B39C33 /* Localizable.strings */ = {
+		1ADA6B721CB3925700B39C33 /* Localizable_ios.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1ADA6B731CB3925700B39C33 /* en */,
 			);
-			name = Localizable.strings;
+			name = Localizable_ios.strings;
 			sourceTree = "<group>";
 		};
-		1ADA6B751CB3928800B39C33 /* LaunchScreen.storyboard */ = {
+		1ADA6B751CB3928800B39C33 /* LaunchScreen_ios.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1ADA6B761CB3928800B39C33 /* Base */,
 				1ADA6B791CB392E100B39C33 /* en */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen_ios.storyboard;
 			sourceTree = "<group>";
 			tabWidth = 4;
 		};
@@ -300,8 +300,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				INFOPLIST_FILE = CoreBluetoothIOSPeripheral/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothIOSPeripheral-Mac";
+				INFOPLIST_FILE = CoreBluetoothIOSPeripheral/Info_ios.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelreneer.CoreBluetoothIOSPeripheral;
 				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
@@ -312,8 +312,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				INFOPLIST_FILE = CoreBluetoothIOSPeripheral/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothIOSPeripheral-Mac";
+				INFOPLIST_FILE = CoreBluetoothIOSPeripheral/Info_ios.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelreneer.CoreBluetoothIOSPeripheral;
 				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;
