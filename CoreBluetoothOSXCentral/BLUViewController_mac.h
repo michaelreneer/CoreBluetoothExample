@@ -1,5 +1,5 @@
 //
-//  BLUAppDelegate.h
+//  BLUViewController_mac.h
 //  CoreBluetoothOSXCentral
 //
 //  Created by Michael Reneer on 4/8/13.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BLUAppDelegate : NSObject <NSApplicationDelegate>
+@interface BLUViewController : NSViewController
 @end
 
 NS_ASSUME_NONNULL_END

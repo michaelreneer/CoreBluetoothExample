@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		1A71D9F61CB4911A00FCC2FD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D77DA17142EBA00B2A04F /* AppKit.framework */; };
 		1A71D9FB1CB4934400FCC2FD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A71D9FA1CB4934400FCC2FD /* CoreBluetooth.framework */; };
-		1A71D9FE1CB493B800FCC2FD /* BLUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A71D9FD1CB493B800FCC2FD /* BLUViewController.m */; };
-		1ADA6B6C1CB3914700B39C33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6A1CB3914700B39C33 /* Main.storyboard */; };
-		1ADA6B6E1CB391A200B39C33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6D1CB391A200B39C33 /* Assets.xcassets */; };
-		1ADA6B711CB391FE00B39C33 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6F1CB391FE00B39C33 /* Localizable.strings */; };
-		622D77E417142EBA00B2A04F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77E317142EBA00B2A04F /* main.m */; };
-		622D77EB17142EBA00B2A04F /* BLUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77EA17142EBA00B2A04F /* BLUAppDelegate.m */; };
+		1A71D9FE1CB493B800FCC2FD /* BLUViewController_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A71D9FD1CB493B800FCC2FD /* BLUViewController_mac.m */; };
+		1ADA6B6C1CB3914700B39C33 /* Main_mac.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6A1CB3914700B39C33 /* Main_mac.storyboard */; };
+		1ADA6B6E1CB391A200B39C33 /* Assets_mac.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6D1CB391A200B39C33 /* Assets_mac.xcassets */; };
+		1ADA6B711CB391FE00B39C33 /* Localizable_mac.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6F1CB391FE00B39C33 /* Localizable_mac.strings */; };
+		622D77E417142EBA00B2A04F /* main_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77E317142EBA00B2A04F /* main_mac.m */; };
+		622D77EB17142EBA00B2A04F /* BLUAppDelegate_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77EA17142EBA00B2A04F /* BLUAppDelegate_mac.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,21 +34,21 @@
 		1A0A20F31CB3690800670ED6 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
 		1A0A20F41CB3690800670ED6 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		1A0A20F61CB3690800670ED6 /* MakeLocalizableStrings.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = MakeLocalizableStrings.sh; sourceTree = "<group>"; };
-		1A71D9F91CB492DC00FCC2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		1A71D9F91CB492DC00FCC2FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_mac.strings; sourceTree = "<group>"; };
 		1A71D9FA1CB4934400FCC2FD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
-		1A71D9FC1CB493B800FCC2FD /* BLUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUViewController.h; sourceTree = "<group>"; };
-		1A71D9FD1CB493B800FCC2FD /* BLUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLUViewController.m; sourceTree = "<group>"; };
-		1ADA6B6B1CB3914700B39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1ADA6B6D1CB391A200B39C33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1ADA6B701CB391FE00B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1A71D9FC1CB493B800FCC2FD /* BLUViewController_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUViewController_mac.h; sourceTree = "<group>"; };
+		1A71D9FD1CB493B800FCC2FD /* BLUViewController_mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLUViewController_mac.m; sourceTree = "<group>"; };
+		1ADA6B6B1CB3914700B39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_mac.storyboard; sourceTree = "<group>"; };
+		1ADA6B6D1CB391A200B39C33 /* Assets_mac.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_mac.xcassets; sourceTree = "<group>"; };
+		1ADA6B701CB391FE00B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable_mac.strings; sourceTree = "<group>"; };
 		621652AA195BE3DE00642A5F /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.markdown; sourceTree = SOURCE_ROOT; };
 		621652AB195BE3DE00642A5F /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
 		622D77D417142EBA00B2A04F /* CoreBluetoothOSXCentral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreBluetoothOSXCentral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		622D77DA17142EBA00B2A04F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		622D77DF17142EBA00B2A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		622D77E317142EBA00B2A04F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		622D77E917142EBA00B2A04F /* BLUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLUAppDelegate.h; sourceTree = "<group>"; };
-		622D77EA17142EBA00B2A04F /* BLUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLUAppDelegate.m; sourceTree = "<group>"; };
+		622D77DF17142EBA00B2A04F /* Info_mac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_mac.plist; sourceTree = "<group>"; };
+		622D77E317142EBA00B2A04F /* main_mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mac.m; sourceTree = "<group>"; };
+		622D77E917142EBA00B2A04F /* BLUAppDelegate_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLUAppDelegate_mac.h; sourceTree = "<group>"; };
+		622D77EA17142EBA00B2A04F /* BLUAppDelegate_mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLUAppDelegate_mac.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,11 +142,11 @@
 		622D77F517142ED500B2A04F /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				622D77E917142EBA00B2A04F /* BLUAppDelegate.h */,
-				622D77EA17142EBA00B2A04F /* BLUAppDelegate.m */,
-				1A71D9FC1CB493B800FCC2FD /* BLUViewController.h */,
-				1A71D9FD1CB493B800FCC2FD /* BLUViewController.m */,
-				622D77E317142EBA00B2A04F /* main.m */,
+				622D77E917142EBA00B2A04F /* BLUAppDelegate_mac.h */,
+				622D77EA17142EBA00B2A04F /* BLUAppDelegate_mac.m */,
+				1A71D9FC1CB493B800FCC2FD /* BLUViewController_mac.h */,
+				1A71D9FD1CB493B800FCC2FD /* BLUViewController_mac.m */,
+				622D77E317142EBA00B2A04F /* main_mac.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -154,11 +154,11 @@
 		622D77F617142EDE00B2A04F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1ADA6B6D1CB391A200B39C33 /* Assets.xcassets */,
-				622D77DF17142EBA00B2A04F /* Info.plist */,
+				1ADA6B6D1CB391A200B39C33 /* Assets_mac.xcassets */,
+				622D77DF17142EBA00B2A04F /* Info_mac.plist */,
 				621652AA195BE3DE00642A5F /* LICENSE.markdown */,
-				1ADA6B6F1CB391FE00B39C33 /* Localizable.strings */,
-				1ADA6B6A1CB3914700B39C33 /* Main.storyboard */,
+				1ADA6B6F1CB391FE00B39C33 /* Localizable_mac.strings */,
+				1ADA6B6A1CB3914700B39C33 /* Main_mac.storyboard */,
 				621652AB195BE3DE00642A5F /* README.markdown */,
 			);
 			name = Resources;
@@ -217,9 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1ADA6B6E1CB391A200B39C33 /* Assets.xcassets in Resources */,
-				1ADA6B711CB391FE00B39C33 /* Localizable.strings in Resources */,
-				1ADA6B6C1CB3914700B39C33 /* Main.storyboard in Resources */,
+				1ADA6B6E1CB391A200B39C33 /* Assets_mac.xcassets in Resources */,
+				1ADA6B711CB391FE00B39C33 /* Localizable_mac.strings in Resources */,
+				1ADA6B6C1CB3914700B39C33 /* Main_mac.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,30 +230,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				622D77EB17142EBA00B2A04F /* BLUAppDelegate.m in Sources */,
-				622D77E417142EBA00B2A04F /* main.m in Sources */,
-				1A71D9FE1CB493B800FCC2FD /* BLUViewController.m in Sources */,
+				622D77EB17142EBA00B2A04F /* BLUAppDelegate_mac.m in Sources */,
+				622D77E417142EBA00B2A04F /* main_mac.m in Sources */,
+				1A71D9FE1CB493B800FCC2FD /* BLUViewController_mac.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1ADA6B6A1CB3914700B39C33 /* Main.storyboard */ = {
+		1ADA6B6A1CB3914700B39C33 /* Main_mac.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1ADA6B6B1CB3914700B39C33 /* Base */,
 				1A71D9F91CB492DC00FCC2FD /* en */,
 			);
-			name = Main.storyboard;
+			name = Main_mac.storyboard;
 			sourceTree = "<group>";
 		};
-		1ADA6B6F1CB391FE00B39C33 /* Localizable.strings */ = {
+		1ADA6B6F1CB391FE00B39C33 /* Localizable_mac.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1ADA6B701CB391FE00B39C33 /* en */,
 			);
-			name = Localizable.strings;
+			name = Localizable_mac.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,8 +278,8 @@
 			baseConfigurationReference = 1A0A20E71CB3690800670ED6 /* Application-Mac.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CoreBluetoothOSXCentral/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothOSXCentral-Mac";
+				INFOPLIST_FILE = CoreBluetoothOSXCentral/Info_mac.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelreneer.CoreBluetoothOSXCentral;
 				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Debug;
@@ -289,8 +289,8 @@
 			baseConfigurationReference = 1A0A20E71CB3690800670ED6 /* Application-Mac.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = CoreBluetoothOSXCentral/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothOSXCentral-Mac";
+				INFOPLIST_FILE = CoreBluetoothOSXCentral/Info_mac.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelreneer.CoreBluetoothOSXCentral;
 				PRODUCT_NAME = "${TARGET_NAME}";
 			};
 			name = Release;

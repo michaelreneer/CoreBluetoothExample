@@ -1,5 +1,5 @@
 //
-//  BLUViewController.m
+//  BLUViewController_mac.m
 //  CoreBluetoothOSXCentral
 //
 //  Created by Michael Reneer on 4/8/13.
@@ -7,7 +7,7 @@
 //
 
 #import <CoreBluetooth/CoreBluetooth.h>
-#import "BLUViewController.h"
+#import "BLUViewController_mac.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
