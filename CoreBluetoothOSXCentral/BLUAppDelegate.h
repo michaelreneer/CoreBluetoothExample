@@ -1,8 +1,8 @@
 //
-//  main.m
+//  BLUAppDelegate.h
 //  CoreBluetoothOSXCentral
 //
-//  Created by Michael Reneer on 4/9/13.
+//  Created by Michael Reneer on 4/8/13.
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
@@ -10,8 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-int main(int argc, const char * argv[]) {
-	return NSApplicationMain(argc, argv);
-}
+@interface BLUAppDelegate : NSObject <NSApplicationDelegate>
+@end
 
 NS_ASSUME_NONNULL_END
