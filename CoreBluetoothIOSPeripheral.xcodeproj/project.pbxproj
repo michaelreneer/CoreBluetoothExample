@@ -49,7 +49,6 @@
 		620FD72D17142AFC00825CBC /* BLUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLUViewController.m; path = CoreBluetoothIOSPeripheral/BLUViewController.m; sourceTree = SOURCE_ROOT; };
 		621652A8195BE3C700642A5F /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.markdown; sourceTree = SOURCE_ROOT; };
 		621652A9195BE3C700642A5F /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
-		621652B1195BE42900642A5F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6216530F195BF3BA00642A5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CoreBluetoothIOSPeripheral/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		627A51FE171394080050E861 /* CoreBluetoothIOSPeripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreBluetoothIOSPeripheral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		627A5201171394080050E861 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -148,7 +147,6 @@
 				627A5205171394080050E861 /* CoreGraphics.framework */,
 				627A5203171394080050E861 /* Foundation.framework */,
 				627A5201171394080050E861 /* UIKit.framework */,
-				621652B1195BE42900642A5F /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -3,14 +3,13 @@
 //  CoreBluetoothIOSPeripheral
 //
 //  Created by Michael Reneer on 4/8/13.
-//  Copyright (c) 2013 Michael Reneer. All rights reserved.
+//  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
 #import <CoreBluetooth/CoreBluetooth.h>
 #import "BLUViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
-
 
 static NSString * const BLUIOSPeripheralNameKey = @"BLUIOSPeripheralName";
 static NSString * const BLUServiceUUID = @"5B2EABB7-93CB-4C6A-94D4-C6CF2F331ED5";
