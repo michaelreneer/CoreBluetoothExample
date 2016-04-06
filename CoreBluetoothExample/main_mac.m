@@ -1,6 +1,6 @@
 //
 //  main_mac.m
-//  CoreBluetoothOSXCentral
+//  CoreBluetoothExample
 //
 //  Created by Michael Reneer on 4/9/13.
 //  Copyright © 2016 Michael Reneer. All rights reserved.

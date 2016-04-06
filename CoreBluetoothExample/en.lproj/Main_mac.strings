@@ -2,8 +2,8 @@
 /* Class = "NSMenuItem"; title = "Customize Toolbar…"; ObjectID = "1UK-8n-QPP"; */
 "1UK-8n-QPP.title" = "Customize Toolbar…";
 
-/* Class = "NSMenuItem"; title = "CoreBluetoothOSXCentral"; ObjectID = "1Xt-HY-uBw"; */
-"1Xt-HY-uBw.title" = "CoreBluetoothOSXCentral";
+/* Class = "NSMenuItem"; title = "CoreBluetoothExample"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "CoreBluetoothExample";
 
 /* Class = "NSMenu"; title = "Find"; ObjectID = "1b7-l0-nxx"; */
 "1b7-l0-nxx.title" = "Find";
@@ -32,8 +32,8 @@
 /* Class = "NSMenuItem"; title = "Find"; ObjectID = "4EN-yA-p0u"; */
 "4EN-yA-p0u.title" = "Find";
 
-/* Class = "NSMenuItem"; title = "Quit CoreBluetoothOSXCentral"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Quit CoreBluetoothOSXCentral";
+/* Class = "NSMenuItem"; title = "Quit CoreBluetoothExample"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "Quit CoreBluetoothExample";
 
 /* Class = "NSMenuItem"; title = "Edit"; ObjectID = "5QF-Oa-p0T"; */
 "5QF-Oa-p0T.title" = "Edit";
@@ -41,8 +41,8 @@
 /* Class = "NSMenuItem"; title = "Copy Style"; ObjectID = "5Vv-lz-BsD"; */
 "5Vv-lz-BsD.title" = "Copy Style";
 
-/* Class = "NSMenuItem"; title = "About CoreBluetoothOSXCentral"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About CoreBluetoothOSXCentral";
+/* Class = "NSMenuItem"; title = "About CoreBluetoothExample"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "About CoreBluetoothExample";
 
 /* Class = "NSMenuItem"; title = "Redo"; ObjectID = "6dh-zS-Vam"; */
 "6dh-zS-Vam.title" = "Redo";
@@ -80,8 +80,8 @@
 /* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
 "F2S-fz-NVQ.title" = "Help";
 
-/* Class = "NSMenuItem"; title = "CoreBluetoothOSXCentral Help"; ObjectID = "FKE-Sm-Kum"; */
-"FKE-Sm-Kum.title" = "CoreBluetoothOSXCentral Help";
+/* Class = "NSMenuItem"; title = "CoreBluetoothExample Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "CoreBluetoothExample Help";
 
 /* Class = "NSMenuItem"; title = "Text"; ObjectID = "Fal-I4-PZk"; */
 "Fal-I4-PZk.title" = "Text";
@@ -161,8 +161,8 @@
 /* Class = "NSMenuItem"; title = "Baseline"; ObjectID = "OaQ-X3-Vso"; */
 "OaQ-X3-Vso.title" = "Baseline";
 
-/* Class = "NSMenuItem"; title = "Hide CoreBluetoothOSXCentral"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Hide CoreBluetoothOSXCentral";
+/* Class = "NSMenuItem"; title = "Hide CoreBluetoothExample"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "Hide CoreBluetoothExample";
 
 /* Class = "NSMenuItem"; title = "Find Previous"; ObjectID = "OwM-mh-QMV"; */
 "OwM-mh-QMV.title" = "Find Previous";
@@ -353,8 +353,8 @@
 /* Class = "NSMenu"; title = "Kern"; ObjectID = "tlD-Oa-oAM"; */
 "tlD-Oa-oAM.title" = "Kern";
 
-/* Class = "NSMenu"; title = "CoreBluetoothOSXCentral"; ObjectID = "uQy-DD-JDr"; */
-"uQy-DD-JDr.title" = "CoreBluetoothOSXCentral";
+/* Class = "NSMenu"; title = "CoreBluetoothExample"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "CoreBluetoothExample";
 
 /* Class = "NSMenuItem"; title = "Cut"; ObjectID = "uRl-iY-unG"; */
 "uRl-iY-unG.title" = "Cut";

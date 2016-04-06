@@ -1,6 +1,6 @@
 //
-//  BLUAppDelegate_ios.m
-//  CoreBluetoothIOSPeripheral
+//  main_ios.m
+//  CoreBluetoothExample
 //
 //  Created by Michael Reneer on 4/8/13.
 //  Copyright © 2016 Michael Reneer. All rights reserved.
@@ -10,7 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@implementation BLUAppDelegate
-@end
+int main(int argc, char * argv[]) {
+	@autoreleasepool {
+		return UIApplicationMain(argc, argv, nil, NSStringFromClass([BLUAppDelegate class]));
+	}
+}
 
 NS_ASSUME_NONNULL_END

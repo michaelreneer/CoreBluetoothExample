@@ -1,6 +1,6 @@
 //
 //  BLUViewController_mac.m
-//  CoreBluetoothOSXCentral
+//  CoreBluetoothExample
 //
 //  Created by Michael Reneer on 4/8/13.
 //  Copyright © 2016 Michael Reneer. All rights reserved.
@@ -94,9 +94,11 @@ static void BLUViewControllerInit(BLUViewController *self) {
     CBUUID *serviceUUID = [CBUUID UUIDWithString:BLUServiceUUID];
     peripheral.delegate = self;
     [peripheral discoverServices:@[serviceUUID]];
-    
-    NSString *value = [[NSString alloc] initWithFormat:@"%@", peripheral.name];
-    [self.deviceTextField setStringValue:value];
+
+	if (peripheral.name != nil) {
+		[self.deviceTextField setStringValue:(NSString * _Nonnull)peripheral.name];
+	}
+
     [self.orientationTextField setStringValue:@""];
 }
 
@@ -144,18 +146,18 @@ static void BLUViewControllerInit(BLUViewController *self) {
         [self.orientationTextField setStringValue:@""];
     } else if (central.state == CBCentralManagerStatePoweredOff) {
 		NSAlert *alert = [[NSAlert alloc] init];
-		[alert setMessageText:@"Bluetooth is currently powered off."];
-		[alert addButtonWithTitle:@"OK"];
+		[alert setMessageText:NSLocalizedString(@"Bluetooth is currently powered off.", nil)];
+		[alert addButtonWithTitle:NSLocalizedString(@"OK", nil)];
 		[alert runModal];
     } else if (central.state == CBCentralManagerStateUnauthorized) {
 		NSAlert *alert = [[NSAlert alloc] init];
-		[alert setMessageText:@"The app is not authorized to use Bluetooth Low Energy."];
-		[alert addButtonWithTitle:@"OK"];
+		[alert setMessageText:NSLocalizedString(@"The app is not authorized to use Bluetooth Low Energy.", nil)];
+		[alert addButtonWithTitle:NSLocalizedString(@"OK", nil)];
 		[alert runModal];
     } else if (central.state == CBCentralManagerStateUnsupported) {
 		NSAlert *alert = [[NSAlert alloc] init];
-		[alert setMessageText:@"The platform/hardware doesn't support Bluetooth Low Energy."];
-		[alert addButtonWithTitle:@"OK"];
+		[alert setMessageText:NSLocalizedString(@"The platform/hardware doesn't support Bluetooth Low Energy.", nil)];
+		[alert addButtonWithTitle:NSLocalizedString(@"OK", nil)];
 		[alert runModal];
     }
 }
@@ -164,8 +166,9 @@ static void BLUViewControllerInit(BLUViewController *self) {
 
 - (void)peripheral:(CBPeripheral *)peripheral didDiscoverCharacteristicsForService:(CBService *)service error:(nullable NSError *)error {
     if (error != nil) {
-        NSLog(@"Error discovering characteristic: %@", [error localizedDescription]);
-        
+		NSAlert *alert = [NSAlert alertWithError:(NSError * _Nonnull)error];
+		[alert runModal];
+
         return;
     }
     
@@ -184,8 +187,9 @@ static void BLUViewControllerInit(BLUViewController *self) {
 
 - (void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(nullable NSError *)error {
     if (error != nil) {
-        NSLog(@"Error discovering service: %@", [error localizedDescription]);
-        
+		NSAlert *alert = [NSAlert alertWithError:(NSError * _Nonnull)error];
+		[alert runModal];
+
         return;
     }
     
@@ -205,8 +209,9 @@ static void BLUViewControllerInit(BLUViewController *self) {
 
 - (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(nullable NSError *)error {
     if (error != nil) {
-        NSLog(@"Error updating value: %@", error.localizedDescription);
-        
+		NSAlert *alert = [NSAlert alertWithError:(NSError * _Nonnull)error];
+		[alert runModal];
+
         return;
     }
     
@@ -217,19 +222,19 @@ static void BLUViewControllerInit(BLUViewController *self) {
         [characteristic.value getBytes:&orientation length:sizeof(orientation)];
         
         if (orientation == 1) {
-            [self.orientationTextField setStringValue:@"Portrait"];
+            [self.orientationTextField setStringValue:NSLocalizedString(@"Portrait", nil)];
         } else if (orientation == 2) {
-            [self.orientationTextField setStringValue:@"Portrait Upside Down"];
+            [self.orientationTextField setStringValue:NSLocalizedString(@"Portrait Upside Down", nil)];
         } else if (orientation == 3) {
-            [self.orientationTextField setStringValue:@"Landscape Left"];
+            [self.orientationTextField setStringValue:NSLocalizedString(@"Landscape Left", nil)];
         } else if (orientation == 4) {
-            [self.orientationTextField setStringValue:@"Landscape Right"];
+            [self.orientationTextField setStringValue:NSLocalizedString(@"Landscape Right", nil)];
         } else if (orientation == 5) {
-            [self.orientationTextField setStringValue:@"Face Up"];
+            [self.orientationTextField setStringValue:NSLocalizedString(@"Face Up", nil)];
         } else if (orientation == 6) {
-            [self.orientationTextField setStringValue:@"Face Down"];
+            [self.orientationTextField setStringValue:NSLocalizedString(@"Face Down", nil)];
         } else {
-            [self.orientationTextField setStringValue:@"Unknown"];
+            [self.orientationTextField setStringValue:NSLocalizedString(@"Unknown", nil)];
         }
     }
 }

@@ -1,16 +1,16 @@
 //
-//  BLUAppDelegate_mac.h
-//  CoreBluetoothOSXCentral
+//  BLUAppDelegate_mac.m
+//  CoreBluetoothExample
 //
 //  Created by Michael Reneer on 4/8/13.
 //  Copyright © 2016 Michael Reneer. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
+#import "BLUAppDelegate_mac.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface BLUAppDelegate : NSObject <NSApplicationDelegate>
+@implementation BLUAppDelegate
 @end
 
 NS_ASSUME_NONNULL_END

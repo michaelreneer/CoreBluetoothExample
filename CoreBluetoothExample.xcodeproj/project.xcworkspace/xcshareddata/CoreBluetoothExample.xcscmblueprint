@@ -1,20 +1,20 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "857F2DEA9728A1313549AA7633816CA75A513293",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "857F2DEA9728A1313549AA7633816CA75A513293" : 0,
+    "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B" : 0,
     "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE" : 0
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3A40FB6B-EB19-4192-9CEF-3299286B9A9A",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2F4DE904-19FD-4AEF-866D-B07F190230AD",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "857F2DEA9728A1313549AA7633816CA75A513293" : "CoreBluetoothIOSPeripheral",
-    "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE" : "CoreBluetoothIOSPeripheral\/Shared\/"
+    "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B" : "CoreBluetoothOSXCentral\/",
+    "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE" : "CoreBluetoothOSXCentral\/Shared\/"
   },
-  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoreBluetoothIOSPeripheral",
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CoreBluetoothExample",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CoreBluetoothIOSPeripheral.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CoreBluetoothExample.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaelreneer\/Shared.git",
@@ -22,9 +22,9 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaelreneer\/CoreBluetoothIOSPeripheral.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaelreneer\/CoreBluetoothOSXCentral.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "857F2DEA9728A1313549AA7633816CA75A513293"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B"
     }
   ]
 }

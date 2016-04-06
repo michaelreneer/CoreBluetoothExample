@@ -1,6 +1,6 @@
 //
 //  BLUViewController_ios.m
-//  CoreBluetoothIOSPeripheral
+//  CoreBluetoothExample
 //
 //  Created by Michael Reneer on 4/8/13.
 //  Copyright © 2016 Michael Reneer. All rights reserved.
@@ -142,9 +142,13 @@ static void BLUViewControllerInit(BLUViewController *self) {
 
 		[peripheral startAdvertising:data];
     } else {
-        NSString *message = [[NSString alloc] initWithFormat:@"Error adding setvice: %@", [error localizedDescription]];
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:message delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-		[alert show];
+        NSString *message = [error localizedDescription];
+		UIAlertController alertController = [UIAlertController alertControllerWithTitle:nil message:message preferredStyle:UIAlertControllerStyleAlert];
+
+		UIAlertAction *dismissAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil) style:UIAlertActionStyleDefault handler:nil];
+		[alertController addAction:dismissAction];
+
+		[self showViewController:alertController sender:self];
 	}
 }
 
@@ -152,7 +156,7 @@ static void BLUViewControllerInit(BLUViewController *self) {
 	if ([peripheral state] == CBPeripheralManagerStatePoweredOn) {
 		[self addServiceToPeripheralManager];
 	} else {
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:@"Peripheral manager did update state." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"Peripheral manager did update state.", nil) delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
 		[alert show];
     }
 }
