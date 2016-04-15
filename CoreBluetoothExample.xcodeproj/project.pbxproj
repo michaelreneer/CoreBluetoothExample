@@ -252,7 +252,7 @@
 		622D77CC17142EBA00B2A04F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = BOC;
+				CLASSPREFIX = BLU;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Michael Reneer";
 				TargetAttributes = {
