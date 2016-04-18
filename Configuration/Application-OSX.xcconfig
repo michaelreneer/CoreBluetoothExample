@@ -10,3 +10,7 @@
 
 // Linking
 LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks
+
+// Asset Catalog Compiler - Options
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_OPTIMIZATION = space
