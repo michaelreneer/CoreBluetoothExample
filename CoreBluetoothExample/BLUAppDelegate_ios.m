@@ -10,7 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@implementation BLUAppDelegate
+@implementation BLUAppDelegate {
+	UIWindow *_window;
+}
+
+@synthesize window = _window;
+
 @end
 
 NS_ASSUME_NONNULL_END

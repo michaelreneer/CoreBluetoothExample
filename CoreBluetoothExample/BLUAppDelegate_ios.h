@@ -11,6 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BLUAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (nonatomic, strong, nullable) UIWindow *window;
+
 @end
 
 NS_ASSUME_NONNULL_END
