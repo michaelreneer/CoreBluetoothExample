@@ -1,6 +1,6 @@
 ## CoreBluetoothExample
 
-An example CoreBluetooth iOS Peripheral and Mac Central application.
+Some example CoreBluetooth Peripheral and Central applications.
 
 #### Dependencies
 
