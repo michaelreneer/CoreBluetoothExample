@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A16C1771CC92389003BD396 /* find-clang-format in Resources */ = {isa = PBXBuildFile; fileRef = 1A16C1751CC92389003BD396 /* find-clang-format */; };
+		1A16C1781CC92389003BD396 /* find-genstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1A16C1761CC92389003BD396 /* find-genstrings */; };
 		1A1EDC201CB561D20095C12A /* BLUAppDelegate_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDBCF1CB560680095C12A /* BLUAppDelegate_ios.m */; };
 		1A1EDC211CB561D20095C12A /* BLUViewController_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDBD11CB560680095C12A /* BLUViewController_ios.m */; };
 		1A1EDC241CB561DD0095C12A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1EDC231CB561DD0095C12A /* CoreBluetooth.framework */; };
@@ -41,7 +43,8 @@
 		1A0A20F21CB3690800670ED6 /* Test-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-OSX.xcconfig"; sourceTree = "<group>"; };
 		1A0A20F31CB3690800670ED6 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
 		1A0A20F41CB3690800670ED6 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
-		1A0A20F61CB3690800670ED6 /* MakeLocalizableStrings.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = MakeLocalizableStrings.sh; sourceTree = "<group>"; };
+		1A16C1751CC92389003BD396 /* find-clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-clang-format"; sourceTree = "<group>"; };
+		1A16C1761CC92389003BD396 /* find-genstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-genstrings"; sourceTree = "<group>"; };
 		1A1EDBCE1CB560680095C12A /* BLUAppDelegate_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUAppDelegate_ios.h; sourceTree = "<group>"; };
 		1A1EDBCF1CB560680095C12A /* BLUAppDelegate_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLUAppDelegate_ios.m; sourceTree = "<group>"; };
 		1A1EDBD01CB560680095C12A /* BLUViewController_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUViewController_ios.h; sourceTree = "<group>"; };
@@ -129,7 +132,8 @@
 		1A0A20F51CB3690800670ED6 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				1A0A20F61CB3690800670ED6 /* MakeLocalizableStrings.sh */,
+				1A16C1751CC92389003BD396 /* find-clang-format */,
+				1A16C1761CC92389003BD396 /* find-genstrings */,
 			);
 			path = Scripts;
 			sourceTree = "<group>";
@@ -288,7 +292,9 @@
 				1A1EDC271CB5620A0095C12A /* Assets_ios.xcassets in Resources */,
 				1A1EDC281CB5620A0095C12A /* LaunchScreen_ios.storyboard in Resources */,
 				1A1EDC2A1CB5620A0095C12A /* Main_ios.storyboard in Resources */,
+				1A16C1771CC92389003BD396 /* find-clang-format in Resources */,
 				1A7184481CB5A19200D71D1D /* Localizable.strings in Resources */,
+				1A16C1781CC92389003BD396 /* find-genstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +321,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/MakeLocalizableStrings.sh\n";
+			shellScript = "Shared/Scripts/find-genstrings\n";
 		};
 		1A7184441CB59B5700D71D1D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -328,7 +334,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/MakeLocalizableStrings.sh\n";
+			shellScript = "Shared/Scripts/find-genstrings\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
