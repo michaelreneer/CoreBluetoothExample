@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A16C1771CC92389003BD396 /* find-clang-format in Resources */ = {isa = PBXBuildFile; fileRef = 1A16C1751CC92389003BD396 /* find-clang-format */; };
-		1A16C1781CC92389003BD396 /* find-genstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1A16C1761CC92389003BD396 /* find-genstrings */; };
 		1A1EDC201CB561D20095C12A /* BLUAppDelegate_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDBCF1CB560680095C12A /* BLUAppDelegate_ios.m */; };
 		1A1EDC211CB561D20095C12A /* BLUViewController_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDBD11CB560680095C12A /* BLUViewController_ios.m */; };
 		1A1EDC241CB561DD0095C12A /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1EDC231CB561DD0095C12A /* CoreBluetooth.framework */; };
@@ -292,9 +290,7 @@
 				1A1EDC271CB5620A0095C12A /* Assets_ios.xcassets in Resources */,
 				1A1EDC281CB5620A0095C12A /* LaunchScreen_ios.storyboard in Resources */,
 				1A1EDC2A1CB5620A0095C12A /* Main_ios.storyboard in Resources */,
-				1A16C1771CC92389003BD396 /* find-clang-format in Resources */,
 				1A7184481CB5A19200D71D1D /* Localizable.strings in Resources */,
-				1A16C1781CC92389003BD396 /* find-genstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
