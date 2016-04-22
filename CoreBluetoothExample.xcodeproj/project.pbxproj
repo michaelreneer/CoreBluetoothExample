@@ -15,6 +15,7 @@
 		1A1EDC281CB5620A0095C12A /* LaunchScreen_ios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EDBDA1CB560830095C12A /* LaunchScreen_ios.storyboard */; };
 		1A1EDC2A1CB5620A0095C12A /* Main_ios.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1EDBDC1CB560830095C12A /* Main_ios.storyboard */; };
 		1A1EDC2F1CB562D10095C12A /* main_ios.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A1EDBD21CB560680095C12A /* main_ios.m */; };
+		1A33F5961CCAF06C00A87721 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6F1CB391FE00B39C33 /* Localizable.strings */; };
 		1A7184481CB5A19200D71D1D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6F1CB391FE00B39C33 /* Localizable.strings */; };
 		1A71D9F61CB4911A00FCC2FD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D77DA17142EBA00B2A04F /* AppKit.framework */; };
 		1A71D9FB1CB4934400FCC2FD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A71D9FA1CB4934400FCC2FD /* CoreBluetooth.framework */; };
@@ -289,8 +290,8 @@
 			files = (
 				1A1EDC271CB5620A0095C12A /* Assets_ios.xcassets in Resources */,
 				1A1EDC281CB5620A0095C12A /* LaunchScreen_ios.storyboard in Resources */,
-				1A1EDC2A1CB5620A0095C12A /* Main_ios.storyboard in Resources */,
 				1A7184481CB5A19200D71D1D /* Localizable.strings in Resources */,
+				1A1EDC2A1CB5620A0095C12A /* Main_ios.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ADA6B6E1CB391A200B39C33 /* Assets_mac.xcassets in Resources */,
+				1A33F5961CCAF06C00A87721 /* Localizable.strings in Resources */,
 				1ADA6B6C1CB3914700B39C33 /* Main_mac.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,9 +341,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A1EDC2F1CB562D10095C12A /* main_ios.m in Sources */,
 				1A1EDC201CB561D20095C12A /* BLUAppDelegate_ios.m in Sources */,
 				1A1EDC211CB561D20095C12A /* BLUViewController_ios.m in Sources */,
+				1A1EDC2F1CB562D10095C12A /* main_ios.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
