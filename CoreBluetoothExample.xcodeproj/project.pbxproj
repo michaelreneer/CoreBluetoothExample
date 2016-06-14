@@ -262,6 +262,9 @@
 					1A1EDBEC1CB560FA0095C12A = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					622D77D317142EBA00B2A04F = {
+						DevelopmentTeam = 75S8L5LRS8;
+					};
 				};
 			};
 			buildConfigurationList = 622D77CF17142EBA00B2A04F /* Build configuration list for PBXProject "CoreBluetoothExample" */;
