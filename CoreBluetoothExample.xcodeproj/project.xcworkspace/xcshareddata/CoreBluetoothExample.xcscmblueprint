@@ -4,13 +4,13 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B" : 0,
-    "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE" : 0
+    "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B" : 9223372036854775807,
+    "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE" : 9223372036854775807
   },
-  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2F4DE904-19FD-4AEF-866D-B07F190230AD",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "64E45972-2ECF-4A7C-90B9-C34F6AABCD7A",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B" : "CoreBluetoothOSXCentral\/",
-    "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE" : "CoreBluetoothOSXCentral\/Shared\/"
+    "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B" : "CoreBluetoothExample\/",
+    "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE" : "CoreBluetoothExample\/Shared\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "CoreBluetoothExample",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -22,7 +22,7 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "667527EAD8EBB7EA42C9BD46D8747B2D61657ECE"
     },
     {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaelreneer\/CoreBluetoothOSXCentral.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/michaelreneer\/CoreBluetoothExample.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EBA8B39AE65C382CD592EB37CC2DA6CC85DFA54B"
     }
