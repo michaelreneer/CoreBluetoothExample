@@ -28,18 +28,18 @@
 
 /* Begin PBXFileReference section */
 		1A0A20E61CB3690800670ED6 /* Application-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-iOS.xcconfig"; sourceTree = "<group>"; };
-		1A0A20E71CB3690800670ED6 /* Application-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-OSX.xcconfig"; sourceTree = "<group>"; };
+		1A0A20E71CB3690800670ED6 /* Application-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-macOS.xcconfig"; sourceTree = "<group>"; };
 		1A0A20E81CB3690800670ED6 /* Framework-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-iOS.xcconfig"; sourceTree = "<group>"; };
-		1A0A20E91CB3690800670ED6 /* Framework-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-OSX.xcconfig"; sourceTree = "<group>"; };
+		1A0A20E91CB3690800670ED6 /* Framework-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Framework-macOS.xcconfig"; sourceTree = "<group>"; };
 		1A0A20EA1CB3690800670ED6 /* Library-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Library-iOS.xcconfig"; sourceTree = "<group>"; };
-		1A0A20EB1CB3690800670ED6 /* Library-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Library-OSX.xcconfig"; sourceTree = "<group>"; };
+		1A0A20EB1CB3690800670ED6 /* Library-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Library-macOS.xcconfig"; sourceTree = "<group>"; };
 		1A0A20EC1CB3690800670ED6 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
 		1A0A20ED1CB3690800670ED6 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
 		1A0A20EE1CB3690800670ED6 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		1A0A20EF1CB3690800670ED6 /* Target-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-iOS.xcconfig"; sourceTree = "<group>"; };
-		1A0A20F01CB3690800670ED6 /* Target-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-OSX.xcconfig"; sourceTree = "<group>"; };
+		1A0A20F01CB3690800670ED6 /* Target-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-macOS.xcconfig"; sourceTree = "<group>"; };
 		1A0A20F11CB3690800670ED6 /* Test-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-iOS.xcconfig"; sourceTree = "<group>"; };
-		1A0A20F21CB3690800670ED6 /* Test-OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-OSX.xcconfig"; sourceTree = "<group>"; };
+		1A0A20F21CB3690800670ED6 /* Test-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-macOS.xcconfig"; sourceTree = "<group>"; };
 		1A0A20F31CB3690800670ED6 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
 		1A0A20F41CB3690800670ED6 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
 		1A16C1751CC92389003BD396 /* find-clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-clang-format"; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		1ADA6B701CB391FE00B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		621652AA195BE3DE00642A5F /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.markdown; sourceTree = SOURCE_ROOT; };
 		621652AB195BE3DE00642A5F /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
-		622D77D417142EBA00B2A04F /* CoreBluetoothExampleCentral-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreBluetoothExampleCentral-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		622D77D417142EBA00B2A04F /* CoreBluetoothExampleCentral-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreBluetoothExampleCentral-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		622D77DA17142EBA00B2A04F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		622D77DF17142EBA00B2A04F /* Info_mac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_mac.plist; sourceTree = "<group>"; };
 		622D77E317142EBA00B2A04F /* main_mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mac.m; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		1A0A20E21CB3690800670ED6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				1A0A20E51CB3690800670ED6 /* Configuration */,
+				1A0A20E51CB3690800670ED6 /* Configurations */,
 				1A0A20F31CB3690800670ED6 /* LICENSE.markdown */,
 				1A0A20F41CB3690800670ED6 /* README.markdown */,
 				1A0A20F51CB3690800670ED6 /* Scripts */,
@@ -108,24 +108,24 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		1A0A20E51CB3690800670ED6 /* Configuration */ = {
+		1A0A20E51CB3690800670ED6 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
 				1A0A20E61CB3690800670ED6 /* Application-iOS.xcconfig */,
-				1A0A20E71CB3690800670ED6 /* Application-OSX.xcconfig */,
+				1A0A20E71CB3690800670ED6 /* Application-macOS.xcconfig */,
 				1A0A20E81CB3690800670ED6 /* Framework-iOS.xcconfig */,
-				1A0A20E91CB3690800670ED6 /* Framework-OSX.xcconfig */,
+				1A0A20E91CB3690800670ED6 /* Framework-macOS.xcconfig */,
 				1A0A20EA1CB3690800670ED6 /* Library-iOS.xcconfig */,
-				1A0A20EB1CB3690800670ED6 /* Library-OSX.xcconfig */,
+				1A0A20EB1CB3690800670ED6 /* Library-macOS.xcconfig */,
 				1A0A20EC1CB3690800670ED6 /* Project-Debug.xcconfig */,
 				1A0A20ED1CB3690800670ED6 /* Project-Release.xcconfig */,
 				1A0A20EE1CB3690800670ED6 /* Project.xcconfig */,
 				1A0A20EF1CB3690800670ED6 /* Target-iOS.xcconfig */,
-				1A0A20F01CB3690800670ED6 /* Target-OSX.xcconfig */,
+				1A0A20F01CB3690800670ED6 /* Target-macOS.xcconfig */,
 				1A0A20F11CB3690800670ED6 /* Test-iOS.xcconfig */,
-				1A0A20F21CB3690800670ED6 /* Test-OSX.xcconfig */,
+				1A0A20F21CB3690800670ED6 /* Test-macOS.xcconfig */,
 			);
-			path = Configuration;
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 		1A0A20F51CB3690800670ED6 /* Scripts */ = {
@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				1A1EDBED1CB560FA0095C12A /* CoreBluetoothExamplePeripheral-iOS.app */,
-				622D77D417142EBA00B2A04F /* CoreBluetoothExampleCentral-OSX.app */,
+				622D77D417142EBA00B2A04F /* CoreBluetoothExampleCentral-macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,9 +231,9 @@
 			productReference = 1A1EDBED1CB560FA0095C12A /* CoreBluetoothExamplePeripheral-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		622D77D317142EBA00B2A04F /* CoreBluetoothExampleCentral-OSX */ = {
+		622D77D317142EBA00B2A04F /* CoreBluetoothExampleCentral-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 622D77F117142EBA00B2A04F /* Build configuration list for PBXNativeTarget "CoreBluetoothExampleCentral-OSX" */;
+			buildConfigurationList = 622D77F117142EBA00B2A04F /* Build configuration list for PBXNativeTarget "CoreBluetoothExampleCentral-macOS" */;
 			buildPhases = (
 				1A7184441CB59B5700D71D1D /* ShellScript */,
 				622D77D017142EBA00B2A04F /* Sources */,
@@ -244,9 +244,9 @@
 			);
 			dependencies = (
 			);
-			name = "CoreBluetoothExampleCentral-OSX";
-			productName = "CoreBluetoothExampleCentral-OSX";
-			productReference = 622D77D417142EBA00B2A04F /* CoreBluetoothExampleCentral-OSX.app */;
+			name = "CoreBluetoothExampleCentral-macOS";
+			productName = "CoreBluetoothExampleCentral-macOS";
+			productReference = 622D77D417142EBA00B2A04F /* CoreBluetoothExampleCentral-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -261,6 +261,7 @@
 				TargetAttributes = {
 					1A1EDBEC1CB560FA0095C12A = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 75S8L5LRS8;
 					};
 					622D77D317142EBA00B2A04F = {
 						DevelopmentTeam = 75S8L5LRS8;
@@ -281,7 +282,7 @@
 			projectRoot = "";
 			targets = (
 				1A1EDBEC1CB560FA0095C12A /* CoreBluetoothExamplePeripheral-iOS */,
-				622D77D317142EBA00B2A04F /* CoreBluetoothExampleCentral-OSX */,
+				622D77D317142EBA00B2A04F /* CoreBluetoothExampleCentral-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -405,9 +406,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A0A20E61CB3690800670ED6 /* Application-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = CoreBluetoothExample/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothExamplePeripheral-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
@@ -415,9 +416,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A0A20E61CB3690800670ED6 /* Application-iOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = CoreBluetoothExample/Info_ios.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothExamplePeripheral-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -437,21 +438,21 @@
 		};
 		622D77F217142EBA00B2A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0A20E71CB3690800670ED6 /* Application-OSX.xcconfig */;
+			baseConfigurationReference = 1A0A20E71CB3690800670ED6 /* Application-macOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = CoreBluetoothExample/Info_mac.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothExampleCentral-OSX";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothExampleCentral-macOS";
 			};
 			name = Debug;
 		};
 		622D77F317142EBA00B2A04F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A0A20E71CB3690800670ED6 /* Application-OSX.xcconfig */;
+			baseConfigurationReference = 1A0A20E71CB3690800670ED6 /* Application-macOS.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 75S8L5LRS8;
 				INFOPLIST_FILE = CoreBluetoothExample/Info_mac.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothExampleCentral-OSX";
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michaelreneer.CoreBluetoothExampleCentral-macOS";
 			};
 			name = Release;
 		};
@@ -476,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		622D77F117142EBA00B2A04F /* Build configuration list for PBXNativeTarget "CoreBluetoothExampleCentral-OSX" */ = {
+		622D77F117142EBA00B2A04F /* Build configuration list for PBXNativeTarget "CoreBluetoothExampleCentral-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				622D77F217142EBA00B2A04F /* Debug */,

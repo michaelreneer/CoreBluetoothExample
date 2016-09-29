@@ -156,8 +156,13 @@ static void BLUViewControllerInit(BLUViewController *self) {
 	if ([peripheral state] == CBPeripheralManagerStatePoweredOn) {
 		[self addServiceToPeripheralManager];
 	} else {
-		UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil message:NSLocalizedString(@"Peripheral manager did update state.", nil) delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-		[alert show];
+		NSString *message = NSLocalizedString(@"Peripheral manager did update state.", nil);
+		UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:message preferredStyle:UIAlertControllerStyleAlert];
+
+		UIAlertAction *dismissAction = [UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil) style:UIAlertActionStyleDefault handler:nil];
+		[alertController addAction:dismissAction];
+
+		[self showViewController:alertController sender:self];
 	}
 }
 

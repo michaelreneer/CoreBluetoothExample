@@ -95,7 +95,7 @@ static void BLUViewControllerInit(BLUViewController *self) {
 	NSString *name = [peripheral name];
 
 	if (name != nil) {
-		[[self deviceTextField] setStringValue:(NSString * _Nonnull)name];
+		[[self deviceTextField] setStringValue:name];
 	}
 
 	[[self orientationTextField] setStringValue:@""];
