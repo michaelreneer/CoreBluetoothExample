@@ -20,6 +20,7 @@
 		1A71D9F61CB4911A00FCC2FD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D77DA17142EBA00B2A04F /* AppKit.framework */; };
 		1A71D9FB1CB4934400FCC2FD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A71D9FA1CB4934400FCC2FD /* CoreBluetooth.framework */; };
 		1A71D9FE1CB493B800FCC2FD /* BLUViewController_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A71D9FD1CB493B800FCC2FD /* BLUViewController_mac.m */; };
+		1ACB12511DA2B97600E4AEEE /* Tool-macOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB12501DA2B97600E4AEEE /* Tool-macOS.xcconfig */; };
 		1ADA6B6C1CB3914700B39C33 /* Main_mac.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6A1CB3914700B39C33 /* Main_mac.storyboard */; };
 		1ADA6B6E1CB391A200B39C33 /* Assets_mac.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6D1CB391A200B39C33 /* Assets_mac.xcassets */; };
 		622D77E417142EBA00B2A04F /* main_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77E317142EBA00B2A04F /* main_mac.m */; };
@@ -62,6 +63,7 @@
 		1A71D9FA1CB4934400FCC2FD /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		1A71D9FC1CB493B800FCC2FD /* BLUViewController_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUViewController_mac.h; sourceTree = "<group>"; };
 		1A71D9FD1CB493B800FCC2FD /* BLUViewController_mac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLUViewController_mac.m; sourceTree = "<group>"; };
+		1ACB12501DA2B97600E4AEEE /* Tool-macOS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Tool-macOS.xcconfig"; sourceTree = "<group>"; };
 		1ADA6B6B1CB3914700B39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_mac.storyboard; sourceTree = "<group>"; };
 		1ADA6B6D1CB391A200B39C33 /* Assets_mac.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_mac.xcassets; sourceTree = "<group>"; };
 		1ADA6B701CB391FE00B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				1A0A20F01CB3690800670ED6 /* Target-macOS.xcconfig */,
 				1A0A20F11CB3690800670ED6 /* Test-iOS.xcconfig */,
 				1A0A20F21CB3690800670ED6 /* Test-macOS.xcconfig */,
+				1ACB12501DA2B97600E4AEEE /* Tool-macOS.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -262,9 +265,11 @@
 					1A1EDBEC1CB560FA0095C12A = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 					};
 					622D77D317142EBA00B2A04F = {
 						DevelopmentTeam = 75S8L5LRS8;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -296,6 +301,7 @@
 				1A1EDC281CB5620A0095C12A /* LaunchScreen_ios.storyboard in Resources */,
 				1A7184481CB5A19200D71D1D /* Localizable.strings in Resources */,
 				1A1EDC2A1CB5620A0095C12A /* Main_ios.storyboard in Resources */,
+				1ACB12511DA2B97600E4AEEE /* Tool-macOS.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
