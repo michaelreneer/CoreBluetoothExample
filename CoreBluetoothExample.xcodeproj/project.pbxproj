@@ -67,8 +67,8 @@
 		1ADA6B6B1CB3914700B39C33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_mac.storyboard; sourceTree = "<group>"; };
 		1ADA6B6D1CB391A200B39C33 /* Assets_mac.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets_mac.xcassets; sourceTree = "<group>"; };
 		1ADA6B701CB391FE00B39C33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		621652AA195BE3DE00642A5F /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.markdown; sourceTree = SOURCE_ROOT; };
-		621652AB195BE3DE00642A5F /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.markdown; sourceTree = SOURCE_ROOT; };
+		621652AA195BE3DE00642A5F /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.markdown; path = ../LICENSE.markdown; sourceTree = "<group>"; };
+		621652AB195BE3DE00642A5F /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.markdown; path = ../README.markdown; sourceTree = "<group>"; };
 		622D77D417142EBA00B2A04F /* CoreBluetoothExampleCentral-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreBluetoothExampleCentral-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		622D77DA17142EBA00B2A04F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		622D77DF17142EBA00B2A04F /* Info_mac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_mac.plist; sourceTree = "<group>"; };
