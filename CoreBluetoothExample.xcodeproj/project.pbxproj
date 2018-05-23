@@ -20,7 +20,6 @@
 		1A71D9F61CB4911A00FCC2FD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622D77DA17142EBA00B2A04F /* AppKit.framework */; };
 		1A71D9FB1CB4934400FCC2FD /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A71D9FA1CB4934400FCC2FD /* CoreBluetooth.framework */; };
 		1A71D9FE1CB493B800FCC2FD /* BLUViewController_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A71D9FD1CB493B800FCC2FD /* BLUViewController_mac.m */; };
-		1ACB12511DA2B97600E4AEEE /* Tool-macOS.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1ACB12501DA2B97600E4AEEE /* Tool-macOS.xcconfig */; };
 		1ADA6B6C1CB3914700B39C33 /* Main_mac.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6A1CB3914700B39C33 /* Main_mac.storyboard */; };
 		1ADA6B6E1CB391A200B39C33 /* Assets_mac.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADA6B6D1CB391A200B39C33 /* Assets_mac.xcassets */; };
 		622D77E417142EBA00B2A04F /* main_mac.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D77E317142EBA00B2A04F /* main_mac.m */; };
@@ -41,10 +40,6 @@
 		1A0A20F01CB3690800670ED6 /* Target-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Target-macOS.xcconfig"; sourceTree = "<group>"; };
 		1A0A20F11CB3690800670ED6 /* Test-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-iOS.xcconfig"; sourceTree = "<group>"; };
 		1A0A20F21CB3690800670ED6 /* Test-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Test-macOS.xcconfig"; sourceTree = "<group>"; };
-		1A0A20F31CB3690800670ED6 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
-		1A0A20F41CB3690800670ED6 /* README.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
-		1A16C1751CC92389003BD396 /* find-clang-format */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-clang-format"; sourceTree = "<group>"; };
-		1A16C1761CC92389003BD396 /* find-genstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "find-genstrings"; sourceTree = "<group>"; };
 		1A1EDBCE1CB560680095C12A /* BLUAppDelegate_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUAppDelegate_ios.h; sourceTree = "<group>"; };
 		1A1EDBCF1CB560680095C12A /* BLUAppDelegate_ios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLUAppDelegate_ios.m; sourceTree = "<group>"; };
 		1A1EDBD01CB560680095C12A /* BLUViewController_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLUViewController_ios.h; sourceTree = "<group>"; };
@@ -75,6 +70,8 @@
 		622D77E317142EBA00B2A04F /* main_mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main_mac.m; sourceTree = "<group>"; };
 		622D77E917142EBA00B2A04F /* BLUAppDelegate_mac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLUAppDelegate_mac.h; sourceTree = "<group>"; };
 		622D77EA17142EBA00B2A04F /* BLUAppDelegate_mac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLUAppDelegate_mac.m; sourceTree = "<group>"; };
+		62873F9320B5414900C23C59 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		62873F9420B5414900C23C59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +99,9 @@
 		1A0A20E21CB3690800670ED6 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				62873F9320B5414900C23C59 /* LICENSE.md */,
+				62873F9420B5414900C23C59 /* README.md */,
 				1A0A20E51CB3690800670ED6 /* Configurations */,
-				1A0A20F31CB3690800670ED6 /* LICENSE.markdown */,
-				1A0A20F41CB3690800670ED6 /* README.markdown */,
-				1A0A20F51CB3690800670ED6 /* Scripts */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -129,15 +125,6 @@
 				1ACB12501DA2B97600E4AEEE /* Tool-macOS.xcconfig */,
 			);
 			path = Configurations;
-			sourceTree = "<group>";
-		};
-		1A0A20F51CB3690800670ED6 /* Scripts */ = {
-			isa = PBXGroup;
-			children = (
-				1A16C1751CC92389003BD396 /* find-clang-format */,
-				1A16C1761CC92389003BD396 /* find-genstrings */,
-			);
-			path = Scripts;
 			sourceTree = "<group>";
 		};
 		622D77CB17142EBA00B2A04F = {
@@ -220,7 +207,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A1EDC171CB560FA0095C12A /* Build configuration list for PBXNativeTarget "CoreBluetoothExamplePeripheral-iOS" */;
 			buildPhases = (
-				1A7184431CB59B4C00D71D1D /* ShellScript */,
 				1A1EDBE91CB560FA0095C12A /* Sources */,
 				1A1EDBEA1CB560FA0095C12A /* Frameworks */,
 				1A1EDBEB1CB560FA0095C12A /* Resources */,
@@ -238,7 +224,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 622D77F117142EBA00B2A04F /* Build configuration list for PBXNativeTarget "CoreBluetoothExampleCentral-macOS" */;
 			buildPhases = (
-				1A7184441CB59B5700D71D1D /* ShellScript */,
 				622D77D017142EBA00B2A04F /* Sources */,
 				622D77D117142EBA00B2A04F /* Frameworks */,
 				622D77D217142EBA00B2A04F /* Resources */,
@@ -301,7 +286,6 @@
 				1A1EDC281CB5620A0095C12A /* LaunchScreen_ios.storyboard in Resources */,
 				1A7184481CB5A19200D71D1D /* Localizable.strings in Resources */,
 				1A1EDC2A1CB5620A0095C12A /* Main_ios.storyboard in Resources */,
-				1ACB12511DA2B97600E4AEEE /* Tool-macOS.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,35 +300,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1A7184431CB59B4C00D71D1D /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/find-genstrings\n";
-		};
-		1A7184441CB59B5700D71D1D /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "Shared/Scripts/find-genstrings\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A1EDBE91CB560FA0095C12A /* Sources */ = {
